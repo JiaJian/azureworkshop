@@ -11,6 +11,8 @@ namespace app
     {
         public static void RegisterRoutes(RouteCollection routes)
         {
+
+			routes.IgnoreRoute("");
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
             routes.MapRoute(
@@ -18,6 +20,8 @@ namespace app
                 url: "{controller}/{action}/{id}",
                 defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
             );
+
+			
         }
     }
 }

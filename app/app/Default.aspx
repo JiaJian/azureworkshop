@@ -5,12 +5,13 @@
 <html lang="en">
 <head runat="server">
 	<title>Jia Jian's Personal Site!</title>
+	<link href="Content/bootstrap.min.css" rel="stylesheet" />
 </head>
 <body>
 	<form id="form1" runat="server">
 		<div class="container">
 			<div class="row">
-				<h1>Stacey Tay</h1>
+				<h1>Jia Jian</h1>
 				<div class="jumbotron">
 					<p>Hi! I'm Jia Jian, an IT student at Temasek Polytechnic.</p>
 				</div>
